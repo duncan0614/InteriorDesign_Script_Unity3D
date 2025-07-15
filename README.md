@@ -25,6 +25,10 @@ Open the project in Unity after confirming that Unity and the required C# packag
 
 ---
 
+[![Watch the video](https://raw.githubusercontent.com/duncan0614/main/InteriorDesign_Script_Unity3D/assets/thumbnail.png)](https://raw.githubusercontent.com/duncan0614/main/InteriorDesign_Script_Unity3D/assets/ProjectVideoDemo.mp4)
+
+---
+
 ## Version History
 
 ### 1.0
