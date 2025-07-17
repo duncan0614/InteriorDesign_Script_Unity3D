@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: ceec0ecdc0e0c2849861a648368ec08b
+timeCreated: 1606445478
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Candle Holder 1
+    100002: Candle Holder 2
+    100004: Candle Holder 3
+    100006: Candle Holder 4
+    100008: Candle Holder 5
+    100010: Candle Holder 6
+    100012: //RootNode
+    100014: Fork
+    100016: Fork2
+    100018: Glass Surface2
+    100020: Knife
+    100022: Knife2
+    100024: Plate
+    100026: Plate2
+    100028: sEAT
+    100030: Seat Feet
+    100032: Seat Feet2
+    100034: sEAT2
+    100036: Table Feet2
+    100038: Wine Glas
+    100040: Wine Glass2
+    400000: Candle Holder 1
+    400002: Candle Holder 2
+    400004: Candle Holder 3
+    400006: Candle Holder 4
+    400008: Candle Holder 5
+    400010: Candle Holder 6
+    400012: //RootNode
+    400014: Fork
+    400016: Fork2
+    400018: Glass Surface2
+    400020: Knife
+    400022: Knife2
+    400024: Plate
+    400026: Plate2
+    400028: sEAT
+    400030: Seat Feet
+    400032: Seat Feet2
+    400034: sEAT2
+    400036: Table Feet2
+    400038: Wine Glas
+    400040: Wine Glass2
+    2300000: Candle Holder 1
+    2300002: Candle Holder 2
+    2300004: Candle Holder 3
+    2300006: Candle Holder 4
+    2300008: Candle Holder 5
+    2300010: Candle Holder 6
+    2300012: Fork
+    2300014: Fork2
+    2300016: Glass Surface2
+    2300018: Knife
+    2300020: Knife2
+    2300022: Plate
+    2300024: Plate2
+    2300026: sEAT
+    2300028: Seat Feet
+    2300030: Seat Feet2
+    2300032: sEAT2
+    2300034: Table Feet2
+    2300036: Wine Glas
+    2300038: Wine Glass2
+    3300000: Candle Holder 1
+    3300002: Candle Holder 2
+    3300004: Candle Holder 3
+    3300006: Candle Holder 4
+    3300008: Candle Holder 5
+    3300010: Candle Holder 6
+    3300012: Fork
+    3300014: Fork2
+    3300016: Glass Surface2
+    3300018: Knife
+    3300020: Knife2
+    3300022: Plate
+    3300024: Plate2
+    3300026: sEAT
+    3300028: Seat Feet
+    3300030: Seat Feet2
+    3300032: sEAT2
+    3300034: Table Feet2
+    3300036: Wine Glas
+    3300038: Wine Glass2
+    4300000: Seat Feet
+    4300002: sEAT
+    4300004: Wine Glas
+    4300006: Knife
+    4300008: Fork
+    4300010: Glass Surface2
+    4300012: Table Feet2
+    4300014: Plate
+    4300016: Fork2
+    4300018: Knife2
+    4300020: Plate2
+    4300022: sEAT2
+    4300024: Seat Feet2
+    4300026: Wine Glass2
+    4300028: Candle Holder 4
+    4300030: Candle Holder 5
+    4300032: Candle Holder 6
+    4300034: Candle Holder 3
+    4300036: Candle Holder 1
+    4300038: Candle Holder 2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
