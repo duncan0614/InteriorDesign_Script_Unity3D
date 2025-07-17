@@ -21,7 +21,7 @@ This project provides scripts for an interactive design planning system featurin
 ---
 
 ## Executing program
-Open the project in Unity after confirming that Unity and the required C# packages are installed. Unity will be able to execute the program.\
+Open the project in Unity after confirming that Unity and the required C# packages are installed. Unity will be able to execute the program.
 
 ---
 
