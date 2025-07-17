@@ -10,7 +10,7 @@ public class raycast : MonoBehaviour
     //獲取射線資訊
     private RaycastHit hit;
 
-    public GameObject a;
+    public GameObject a, b;
 
     public Animator wallcontrol;
 
@@ -32,17 +32,6 @@ public class raycast : MonoBehaviour
 
     public Material color5;
 
-    public Material color6;
-
-    public Material color7;
-
-    public Material color8;
-
-    public Material color9;
-
-    public Material color10;
-
-    
 
     void Start()
     {
@@ -55,7 +44,7 @@ public class raycast : MonoBehaviour
 
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit, 10000))
+        if (Physics.Raycast(ray, out hit, 1000))
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -68,10 +57,10 @@ public class raycast : MonoBehaviour
                 }
 
 
-                /*if (hit.collider.gameObject.tag == "plane2")
+                if (hit.collider.gameObject.tag == "floor")
                 {
                     flooranimation();
-                }*/
+                }
             }
 
             /*if(Input.GetMouseButtonDown(1))
@@ -99,46 +88,46 @@ public class raycast : MonoBehaviour
 
         if (Input.GetKey("left"))
         {
-			if (a.tag != "plane2") 
+			if (a.tag != "plane") 
 			{
 				if (a.tag == "bigobject") 
 				{
-					a.transform.Rotate (0 , 0, -1);
+					a.transform.Rotate (0 , 0, -3);
 				}
 				else if (a.tag == "middleobject") 
 				{
-					a.transform.Rotate (0, -1, 0);
+					a.transform.Rotate (0, -3, 0);
 				}
 				else if (a.tag == "smallobject") 
 				{
-					a.transform.Rotate (0, 0, -1);
+					a.transform.Rotate (0, 0, -3);
 				}
                 else
                 {
-                    a.transform.Rotate(0, -1, 0);
+                    a.transform.Rotate(0, -3, 0);
                 }
 			}
         }
 
         if (Input.GetKey("right"))
         {
-            if (a.tag != "plane2")
+            if (a.tag != "plane")
             {
 				if (a.tag == "bigobject") 
 				{
-					a.transform.Rotate (0, 0, 1);
+					a.transform.Rotate (0, 0, 3);
 				}
 				else if (a.tag == "middleobject") 
 				{
-					a.transform.Rotate (0, 1, 0);
+					a.transform.Rotate (0, 3, 0);
 				}
 				else if (a.tag == "smallobject") 
 				{
-					a.transform.Rotate (0, 0, 1);
+					a.transform.Rotate (0, 0, 3);
 				}
                 else
                 {
-                    a.transform.Rotate(0, 1, 0);
+                    a.transform.Rotate(0, 3, 0);
                 }
             }
 
@@ -178,11 +167,10 @@ public class raycast : MonoBehaviour
         wallcontrol.SetTrigger("wallstart");
     }
 
-    /*private void flooranimation()
+    private void flooranimation()
     {
         floorcontrol.SetTrigger("floorstart");
-    }*/
-
+    }
 	public void decrease (){
 		Price = -500;
 		Price2 = Price2 + Price;
@@ -264,46 +252,6 @@ public class raycast : MonoBehaviour
         if (a.tag == "wall")
         {
             a.GetComponent<Renderer>().material = color5;
-        }
-    }
-
-    public void changefloor1()
-    {
-        if (a.tag == "plane2")
-        {
-            a.GetComponent<Renderer>().material = color6;
-        }
-    }
-
-    public void changefloor2()
-    {
-        if (a.tag == "plane2")
-        {
-            a.GetComponent<Renderer>().material = color7;
-        }
-    }
-
-    public void changefloor3()
-    {
-        if (a.tag == "plane2")
-        {
-            a.GetComponent<Renderer>().material = color8;
-        }
-    }
-
-    public void changefloor4()
-    {
-        if (a.tag == "plane2")
-        {
-            a.GetComponent<Renderer>().material = color9;
-        }
-    }
-
-    public void changefloor5()
-    {
-        if (a.tag == "plane2")
-        {
-            a.GetComponent<Renderer>().material = color10;
         }
     }
 }

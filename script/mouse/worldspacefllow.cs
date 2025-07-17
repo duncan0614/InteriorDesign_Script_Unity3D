@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine .UI ;
 using UnityEngine.EventSystems;
 
-public class floorcontrol : MonoBehaviour {
+public class worldspacefllow : MonoBehaviour {
 
-	public Animator anime = null;
+	// Use this for initialization
+	void Start () {
+
+	}
+
 
 	bool CheckGuiRaycastObjects()
 	{
@@ -23,7 +27,6 @@ public class floorcontrol : MonoBehaviour {
 		return list.Count > 0;
 	}
 
-
 	void Update()
 	{
 		if (CheckGuiRaycastObjects()) return;
@@ -37,17 +40,9 @@ public class floorcontrol : MonoBehaviour {
 			{
 				//do some thing
 
-				if(hit.transform.tag != "plane2"){return;}
-				else
-				{
-					
-					anime.SetTrigger("floorstart");
 
-				}
 
 			}
 		}
 	}
-
 }
-
